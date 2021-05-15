@@ -118,6 +118,7 @@ void setup() {
   }
 
   rf95.setTxPower(23, false);
+  rf95.setSpreadingFactor(12);
   
   pinMode(LED, OUTPUT);
 
